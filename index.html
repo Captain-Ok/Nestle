@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="max-w-[1924px] w-screen h-screen">
+
+    <!-- Header Starts -->
+    <header class="flex justify-between">
+        <div class="mt-10 ml-24" id="left">
+            <img src="logo.svg" class="h-[94px]" alt="">
+        </div>
+        <div class="mr-36" id="right">
+            <div class="flex" id="inleft">
+                <label class="text-[1.2rem] font-medium" for="">Darkmode</label>
+                <div class="ml-10 flex" id="btn">
+                    <button class="bg-yellow-500 h-10 p-1">You are in Nestle India</button>
+                    <button class="bg-blue-800 h-10 w-20 rounded-r-md">Contact</button>
+                </div>
+            </div>
+            <div class="p-10 ml-14 mt-5" id="inright">
+                <input class="rounded-full p-2 h-8 w-64 text-yellow-300 text-[13px]" type="text"
+                    placeholder="Search...">
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- **** Ends **** -->
+
+    <!-- Navigation Bar  -->
+    <div id="nav_bar" class="flex h-[3rem] justify-between">
+        <div class="flex ml-32" id="left">
+            <a href=""><img class="h-5 mt-[.8rem]" src="home-icon-dark.svg" alt=""></a>
+            <a href="">
+                <li>About Us</li>
+            </a>
+            <a href="">
+                <li>Our Stories</li>
+            </a>
+            <a href="">
+                <li>Our Businesses</li>
+            </a>
+            <a href="">
+                <li>Nestle in society</li>
+            </a>
+            <a href="">
+                <li>Nutrition Health and Wellness</li>
+            </a>
+        </div>
+        <div class="flex mr-28 font-medium" id="right">
+            <a href="">
+                <li>Careers</li>
+            </a>
+            <a href="">
+                <li>Investors</li>
+            </a>
+            <a href="">
+                <li>Media</li>
+            </a>
+        </div>
+    </div>
+    <!-- **** Ends **** -->
+
+    <!-- workingarea Starts -->
+
+    <!-- 3d animation -->
+
+    <div id="workingarea" class="h-[700vh] left-0 top-0 relative">
+        <div id="main" class="left-0 top-0 sticky">
+            <canvas id="frame"></canvas>
+        </div>
+    </div>
+    <!-- **** End **** -->
+
+    <!-- Cards -->
+    <div class="flex justify-center mt-11 mb-11 text-white" id="cards">
+        <a href="">
+            <div id="card_1" class="card">
+                <img src="about_nestle_hp_0.jpg" alt="">
+                <div id="paragraph">
+                    <h1 class="text-blue-700">About Nestlé</h1>
+                    <p class="p-6">Nestlé is the world’s largest food and beverage company. We have more than
+                        2000
+                        brands ranging from global icons to local favourites, and we are present in 191
+                        countries
+                        around the world.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div id="card_2" class="card">
+                <img src="smallbx-announcement_3.jpg" alt="">
+                <h1 class="text-green-900">Announcements</h1>
+                <p class="p-6">Regulation 30 and Schedule III of the SEBI (Listing Obligations and Disclosure
+                    Requirements)
+                    Regulations, 2015 (“Listing Regulations”): Disclosure of change in the Senior Management of
+                    the
+                    Company</p>
+            </div>
+        </a>
+        <a href="">
+            <div id="card_3" class="card">
+                <img src="MaggiPrd-Banner-480x269-09-J.jpg" alt="">
+                <h1 class="text-pink-700">Our Brands</h1>
+                <p class="p-6">Some of India's best known brands are part of the Nestlé family. Discover how
+                    they
+                    can be enjoyed
+                    as part of a healthy diet.</p>
+            </div>
+        </a>
+        <a href="">
+            <div id="card_4" class="card">
+                <img src="smallbox-jobs_0.jpg" alt="">
+                <h1 class="text-cyan-700">Careers</h1>
+                <p class="p-6">Make the most of your potential and get more out of your career. Explore
+                    opportunities at Nestlé
+                    India.</p>
+            </div>
+        </a>
+    </div>
+    </div>
+    <!-- **** Ends **** -->
+
+
+    <!-- Latest News -->
+    <div id="main" class="bg-blue-950 h-96 flex justify-center items-center">
+        <div class="flex gap-24 p-16" id="news">
+            <div id="b1">
+                <h1 class="text-[2.2rem]">Latest news</h1>
+                <button class="border w-20 h-10 mt-28">view</button>
+            </div>
+            <div class="w-[11rem]" id="b2">
+                <h3>MAY 30,2024</h3>
+                <p>MAGGI inspires change with first-of-its-kind edible fork</p>
+                <hr class="mt-28">
+            </div>
+            <div class="w-[10rem]" id="b2">
+                <h3>APR 25, 2024</h3>
+                <p>Nestlé India launches the much-awaited NESPRESSO</p>
+                <hr class="mt-28">
+            </div>
+            <div class="w-[12rem]" id="b3">
+                <h3>APR 25, 2024</h3>
+                <p>Nestlé India and Dr. Reddy's to form joint venture to take health science nutraceutical porfolio
+                    to
+                    consumers across India and other agreed territories</p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </div>
+    <!-- **** Ends **** -->
+
+    <!-- slider start -->
+    <div id="slider">
+        <!-- <div class="heading flex justify-center text-white">
+            <h1>EXPLORE a section of our brands</h1>
+        </div> -->
+
+        <button class="text-white border w-16" id="btn1">
+            left
+        </button>
+        <div id="sliders">
+            <div class="slide ">
+                <img src="slider/MAGGI Sauces-400x400.png" alt="">
+                <img src="slider/MAGGI Pazzta -400x400.png" alt="">
+                <img src="slider/BarOne-400x400.png" alt="">
+                <img src="slider/Koko Krunch Choco Burst-400x400.png" alt="">
+                <img src="slider/MAGGI Cuppa-400x400.png" alt="">
+                <img class="rounded-full" src="slider/maggi_masala-ae-magic_t_4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img class="rounded-full" src="slider/oats-thumb_4.jpg" alt="">
+                <img src="slider/NESCAFÉ SUNRISE-400x400.png" alt="">
+                <img src="slider/Nestlé LACTOGROW-400x400.png" alt="">
+                <img src="slider/Nangrow-Logo-Circle-400x400.png" alt="">
+                <img src="slider/NESTLÉ MUNCH-400x400.png " alt="">
+                <img src="slider/Milkybar-402x402.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="slider/NESCAFÉ CLASSIC-400x400.png" alt="">
+                <img src="slider/NESCAFÉ GOLD-400x400.png" alt="">
+                <img src="slider/Masala Noodles-400x400.png" alt="">
+                <img src="slider/Koko Krunch Strawberry Flavour Burst-400x400.png" alt="">
+                <img src="slider/Koko Krunch-400x400.png" alt="">
+                <img src="slider/Kitkat-circle-400x400.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="slider/BarOne-400x400.png" alt="">
+                <img src="slider/E-Nescafe-400x400.png" alt="">
+                <img src="slider/Gerber-Logo-402x402-v1.png" alt="">
+                <img src="slider/NESTEA ICED TEA-400x400.png" alt="">
+                <img src="slider/NESTLÉ a+- 400x400.png" alt="">
+                <img src="slider/NESTLÉ MILKMAID-400x400.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="slider/NesPlus Crunchy Flakes-400x400.png" alt="">
+                <img src="slider/NesPlus Crunchy Granola-400x400.png" alt="">
+                <img src="slider/Nestlé Ceregrow-400x400.png" alt="">
+                <img src="slider/Nescafé Latte-400x400.png" alt="">
+                <img src="slider/Nestlé LACTOGROW-400x400.png" alt="">
+                <img src="slider/MAGGI Nutri-licious-400x400 (1).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="slider/MAGGI Cooking Aids -400x400.png" alt="">
+                <img src="slider/MAGGI Nutri-licious-400x400.png" alt="">
+                <img src="slider/MAGGI Cuppa-400x400.png" alt="">
+                <img src="slider/Gerber-Logo-402x402-v1.png" alt="">
+                <img src="slider/maggi_masala-ae-magic_t_4.jpg" alt="">
+                <img src="slider/Nestlé LACTOGROW-400x400.png" alt="">
+            </div>
+        </div>
+        <button id="btn2" class="text-white border w-16">right</button>
+    </div>
+    <!--**** Ends **** -->
+
+    </div>
+    <!-- **** Ends **** -->
+
+    <footer class="mt-20 text-white">
+
+        <div id="parent" class="w-screen h-[40vh] bg-cyan-700 flex justify-center items-center">
+            <div id="child" class="w-[80%] h-[50%] flex gap-[10px]">
+                <div id="one">
+                    <h1 class="text-2xl">Nestlé News</h1> <br>
+                    <p>Search our archive news and press releases</p>
+                    <button>Discover all the news</button>
+                </div>
+                <div id="two">
+                    <h1 class="text-2xl">Compliance Concern</h1><br>
+                    <p>Speak Up about your concern</p>
+                    <button>Speak Up</button>
+                </div>
+                <div class="w-64" id="three">
+                    <img src="worldmap.png">
+                </div>
+                <div id="four">
+                    <h1>Contact Us</h1>
+                    <p>Across the globe, Nestle are here to help answer your queries</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/AKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

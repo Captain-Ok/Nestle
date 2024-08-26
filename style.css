@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1924px;
+}
+
+html, body{
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+header input{
+    background-color: rgba(255, 233, 233, 0.233);
+}
+
+/* Nav bar */
+#nav_bar{
+    background-color: #F6F5F4;
+}
+#nav_bar li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+#nav_bar a:hover{
+    background-color: rgb(163, 159, 159);
+    height: auto;
+    transition: ease-out .2s;
+}
+#nav_bar li{
+    margin-top: .8rem;
+}
+
+#nav_bar a{
+    margin-left: 23px;
+}
+/* **** */
+
+/* Card */
+#cards .card{
+    height: 32rem;
+    width: 15rem;
+    box-shadow:3px 3px 10px grey;
+    margin-left: .8rem;
+}
+
+#cards h1{
+    padding: 1.5rem;
+    font-size: 1.68rem;
+    margin-bottom: -2.2rem;
+}
+/* *** */
+
+
+/* News */
+#news{
+    color: white;
+}
+#news h3{
+    margin-bottom: 1rem;
+}
+#news div{
+    margin-left: 2rem;
+}
+/* *** */
+
+/* Slider */
+#slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#sliders{
+    position: relative;
+    width: 54%;
+    height: 100px;
+    overflow: hidden;
+}
+#sliders img{
+    width: 100px;
+}
+.slide{
+    display: flex;
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+    gap: 20px;
+}
+/*  ***  */
